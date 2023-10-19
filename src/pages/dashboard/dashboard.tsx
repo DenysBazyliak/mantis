@@ -103,8 +103,10 @@ const Dashboard = () => {
           xs={12}
           sm={12}
           md={6}
-          lg={2}
+          lg={3}
           display={'flex'}
+          direction={'row'}
+          flexWrap={'nowrap'}
           sx={{
             padding: matchDownMD ? '16px' : '0px',
             alignItems: 'center',
@@ -115,7 +117,7 @@ const Dashboard = () => {
             variant={'contained'}
             sx={{
               height: '40px',
-              width: 'max-content'
+              width: '250px'
             }}
           >
             + Create New Task / Project
