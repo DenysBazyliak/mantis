@@ -67,7 +67,7 @@ const buttons: buttonArray[] = [
   }
 ];
 
-export const TaskButtons = ({ isActive, setIsActive }: TaskTableProps) => {
+export const  TaskButtons = ({ isActive, setIsActive }: TaskTableProps) => {
   const dispatch = useDispatch();
   return (
     <Grid

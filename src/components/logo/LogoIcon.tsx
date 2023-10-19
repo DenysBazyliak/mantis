@@ -1,6 +1,5 @@
 // material-ui
 
-
 /**
  * if you want to use image instead of <svg> uncomment following.
  *
@@ -10,7 +9,7 @@
  *
  */
 
-import logoIcon from 'assets/images/logo.png';
+import logoIcon from 'assets/images/small-logo.png';
 // ==============================|| LOGO ICON SVG ||============================== //
 
 const LogoIcon = () => {
